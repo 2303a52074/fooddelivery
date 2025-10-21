@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>Food Delivery App</h1>
+    <h3>Login</h3>
+
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="userType">Select User Type:</label>
+      <select id="userType" required>
+        <option value="">--Select--</option>
+        <option value="Customer">Customer</option>
+        <option value="DeliveryPartner">Delivery Partner</option>
+        <option value="Restaurant">Restaurant</option>
+      </select>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff5e62;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  background: #ff5e62;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff9966;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
